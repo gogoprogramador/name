@@ -1,0 +1,13 @@
+canvas {
+    animation-name: loquequieras;
+    animation-duration: 4s;
+    animation-iteration-count:infinito ;
+}
+@keyframes loquequieras {
+    from{
+        box-shadow:1px 1px 30px red;
+    }
+    to {
+        box-shadow: 1px 2px 40px blue;
+    }
+}
